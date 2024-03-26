@@ -59,4 +59,4 @@ D_a = np.array(D_a)
 D_p = np.array(D_p)
 
 df = pd.DataFrame({"Redshift" : z_max_array, "Comoving distance" : D_c, "Luminosity distance" : D_l, "Angular-diameter distance" : D_a, "Proper distance" : D_p})
-df.to_csv("cosmo_distance_SI_unit.csv", index=False)
+df.to_csv("cosmo_distance_in_Mpc_unit.csv", index=False)
